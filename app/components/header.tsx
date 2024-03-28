@@ -18,7 +18,7 @@ const Header = () => {
         className="fixed top-0 left-0 right-0 z-50 mr-0 backdrop-blur-[var(--header-blur)] border-b border-[var(--header-border)] min-h-[65px]"
       >
         <nav
-          className="flex items-center justify-between mx-auto max-w-[1024px] py-3 px-4 sm:px-8"
+          className="flex items-center justify-between mx-auto max-w-[1100px] py-3 px-4 sm:px-8"
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
