@@ -9,22 +9,28 @@ const Hero = () => {
   return (
     <section className="relative w-full">
       <div className="h-[calc(100svh-65px)] mx-auto max-w-[1024px]">
-        <div className="flex pt-[120px]">
-          <div className="flex flex-col gap-4">
-            <h1 className="text-4xl font-bold">
-              Stay on top of your pipeline. Google alerts on steroids for sales.
-            </h1>
-            <p>
-              Aristotle is the relationship sales platform that one-man sales
-              armies use to stay on top of mind and close more deals easier than
-              they ever thought possible.
-            </p>
-            <div>
+        <div className="pt-[120px]">
+          <div className="flex bg-[rgba(20,20,20,0.7)] gap-10 py-20 px-10 rounded-2xl backdrop-blur-[var(--header-blur)] border border-[var(--header-border)]">
+            <div className="flex flex-col gap-4">
+              <h1 className="text-4xl font-bold rounded-[1.25rem]">
+                Stay on top of your pipeline. Google alerts on steroids for
+                sales.
+              </h1>
+              <p>
+                Aristotle is the relationship sales platform that one-man sales
+                armies use to stay on top of mind and close more deals easier
+                than they ever thought possible.
+              </p>
+              <div>
                 <ButtonAnimated />
+              </div>
+            </div>
+            <div className="h-auto flex items-center justify-center w-fit">
+              <CardStack items={CARDS} />
             </div>
           </div>
-          <div className="h-auto flex items-center justify-center w-full">
-            <CardStack items={CARDS} />
+          <div>
+            
           </div>
         </div>
       </div>
