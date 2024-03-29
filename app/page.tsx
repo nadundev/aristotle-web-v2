@@ -14,7 +14,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const shouldBeBlack = window.scrollY > 1400;
+      const shouldBeBlack = window.scrollY > 500;
       setIsScrolled(shouldBeBlack);
     };
 
