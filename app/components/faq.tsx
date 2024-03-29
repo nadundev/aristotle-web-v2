@@ -21,7 +21,7 @@ const FAQ = () => {
             <div className="pt-6">
               <dt>
                 <button type="button" className="flex w-full items-start justify-between text-left text-gray-900" aria-controls="faq-0" aria-expanded={expandedFAQ === 0} onClick={() => toggleFAQ(0)}>
-                  <span className="text-base font-semibold leading-7">What's the best thing about Switzerland?</span>
+                  <span className="text-base font-semibold leading-7">What&apos;s the best thing about Switzerland?</span>
                   <span className="ml-6 flex h-7 items-center">
                     <svg className={`h-6 w-6 ${expandedFAQ === 0 ? 'hidden' : ''}`} fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v12m6-6H6" />
@@ -33,7 +33,7 @@ const FAQ = () => {
                 </button>
               </dt>
               <dd className={`mt-2 pr-12 ${expandedFAQ === 0 ? '' : 'hidden'}`} id="faq-0">
-                <p className="text-base leading-7 text-gray-600">I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
+                <p className="text-base leading-7 text-gray-600">I don&apos;t know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.</p>
               </dd>
             </div>
 

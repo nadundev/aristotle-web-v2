@@ -22,7 +22,7 @@ const Features = () => {
             <div>
               <img src={gridOne.src} className="w-full h-auto" alt="image1" />
               <p className="mt-6 text-lg leading-8 text-gray-900">
-                Letting hot prospects go cold in impersonal newsletters they'll
+                Letting hot prospects go cold in impersonal newsletters they&apos;ll
                 never read.
               </p>
             </div>
