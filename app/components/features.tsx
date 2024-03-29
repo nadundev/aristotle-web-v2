@@ -109,7 +109,7 @@ const Features = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-lg text-left leading-8 text-gray-900">
+                <p className="text-lg font-medium text-left leading-8 text-gray-900">
                   Nurture and progress mid-funnel deals to close.
                 </p>
               </div>
@@ -132,7 +132,7 @@ const Features = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-lg text-left leading-8 text-gray-900">
+                <p className="text-lg text-left font-medium leading-8 text-gray-900">
                   Never miss a sales opportunity with real-time monitoring.
                 </p>
               </div>
@@ -155,7 +155,7 @@ const Features = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-lg text-left leading-8 text-gray-900">
+                <p className="text-lg text-left font-medium leading-8 text-gray-900">
                   Personally engage leads with tailored, multi-channel outreach
                   generated with AI.
                 </p>
