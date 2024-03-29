@@ -46,3 +46,74 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes clipPathAnimation {
+  0% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  25% {
+    clip-path: polygon(0 20%, 100% 60%, 100% 60%, 0 100%);
+  }
+  50% {
+    clip-path: polygon(0 20%, 100% 70%, 100% 70%, 0 100%);
+  }
+  75% {
+    clip-path: polygon(0 20%, 100% 80%, 100% 80%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.animated-clip-path {
+  animation: clipPathAnimation 20s infinite ease-in-out;
+}
+
+.gradient-text {
+  background: linear-gradient(180deg, #ffffff, #9b9b9b); /* Example gradient */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block; /* Ensures the gradient applies correctly */
+}
+
+.box {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    /* transform: scale(0.9) translateZ(0); */
+    filter: blur(15px);
+    background: linear-gradient(
+      to left,
+      #c49f79,
+      #c19e66,
+      #ffc06e,
+      #9f805d,
+      #9d8e7d,
+      #84725c,
+      #6a5b4a,
+      #786249,
+      #9f753f,
+      #c99742
+    );
+    background-size: 200% 200%;
+    animation: animateGlow 8s linear infinite;
+  }
+}
+
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
