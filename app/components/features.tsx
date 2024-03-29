@@ -1,7 +1,5 @@
 import React from "react";
-import gridOne from "../assets/images/grid-image-01.webp";
-import gridTwo from "../assets/images/grid-image-02.webp";
-import gridThree from "../assets/images/grid-image-03.webp";
+import placeHolder from "../assets/images/placeholder.png";
 
 const Features = () => {
   return (
@@ -13,32 +11,72 @@ const Features = () => {
             of B2B sales conversations end in no decision. These deals hold
             unrealized revenue.
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-2xl leading-8 text-brand-500 font-bold">
             Right now, you might be...
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-          <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm:grid-col-3 md:grid-cols-3 lg:gap-y-16">
+          <div className="grid max-w-2xl grid-cols-1 gap-x-12 gap-y-10 lg:max-w-none sm:grid-col-3 md:grid-cols-3 lg:gap-y-16">
             <div>
-              <img src={gridOne.src} className="w-full h-auto" alt="image1" />
-              <p className="mt-6 text-lg leading-8 text-gray-900">
-                Letting hot prospects go cold in impersonal newsletters they&apos;ll
-                never read.
-              </p>
+              <article className="flex flex-col items-start justify-between">
+                <div className="relative w-full">
+                  <img
+                    src={placeHolder.src}
+                    alt=""
+                    className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                  />
+                  <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                </div>
+                <div className="max-w-xl">
+                  <div className="group relative">
+                    <p className="mt-5 text-md text-left leading-6 text-gray-600">
+                      Forget manual research. Actively gather data from 13+
+                      sources to comprehensively monitor your leads, their
+                      company and their industry.
+                    </p>
+                  </div>
+                </div>
+              </article>
             </div>
             <div>
-              <img src={gridTwo.src} alt="image2" />
-              <p className="mt-6 text-lg leading-8 text-gray-900">
-                Spamming tired follow-up lines that make you look like just
-                another pesky salesperson.
-              </p>
+              <article className="flex flex-col items-start justify-between">
+                <div className="relative w-full">
+                  <img
+                    src={placeHolder.src}
+                    alt=""
+                    className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                  />
+                  <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                </div>
+                <div className="max-w-xl">
+                  <div className="group relative">
+                    <p className="mt-5 text-md text-left leading-6 text-gray-600">
+                      Spamming tired follow-up lines that make you look like
+                      just another pesky salesperson.
+                    </p>
+                  </div>
+                </div>
+              </article>
             </div>
             <div>
-              <img src={gridThree.src} alt="image3" />
-              <p className="mt-6 text-lg leading-8 text-gray-900">
-                Drowning in a sea of noisy alerts that leave you chasing dead
-                ends instead of closing deals.
-              </p>
+              <article className="flex flex-col items-start justify-between">
+                <div className="relative w-full">
+                  <img
+                    src={placeHolder.src}
+                    alt=""
+                    className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                  />
+                  <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10"></div>
+                </div>
+                <div className="max-w-xl">
+                  <div className="group relative">
+                    <p className="mt-5 text-md leading-6 text-gray-600">
+                      Drowning in a sea of noisy alerts that leave you chasing
+                      dead ends instead of closing deals.
+                    </p>
+                  </div>
+                </div>
+              </article>
             </div>
           </div>
         </div>
@@ -47,23 +85,77 @@ const Features = () => {
             What if you could personally engage your top deals at just the right
             time, with meaningful, relevant outreach?
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+          <p className="mt-6 text-2xl leading-8 text-brand-500 font-bold">
             With Aristotle you can.
           </p>
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
-            <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm:grid-col-3 md:grid-cols-3 lg:gap-y-16">
-              <div>
-                <p className="mt-6 text-lg leading-8 text-gray-900">
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
+            <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
+              <div className="flex gap-4">
+                <div>
+                  <div className="w-7 h-7 bg-brand-500 rounded-full grid place-content-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      className="w-5 h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 12.75 6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p className="text-lg text-left leading-8 text-gray-900">
                   Nurture and progress mid-funnel deals to close.
                 </p>
               </div>
-              <div>
-                <p className="mt-6 text-lg leading-8 text-gray-900">
+              <div className="flex gap-4">
+                <div>
+                  <div className="w-7 h-7 bg-brand-500 rounded-full grid place-content-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      className="w-5 h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 12.75 6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p className="text-lg text-left leading-8 text-gray-900">
                   Never miss a sales opportunity with real-time monitoring.
                 </p>
               </div>
-              <div>
-                <p className="mt-6 text-lg leading-8 text-gray-900">
+              <div className="flex gap-4">
+                <div>
+                  <div className="w-7 h-7 bg-brand-500 rounded-full grid place-content-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      className="w-5 h-5"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="m4.5 12.75 6 6 9-13.5"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <p className="text-lg text-left leading-8 text-gray-900">
                   Personally engage leads with tailored, multi-channel outreach
                   generated with AI.
                 </p>
