@@ -4,7 +4,11 @@ import React, { useState } from "react";
 import aristotleLogo from "../assets/images/logo-cropped.png";
 import Image from "next/image";
 
-const Header = () => {
+interface HeaderProps {
+  isScrolled: boolean;
+}
+
+const Header: React.FC<HeaderProps> = ({ isScrolled }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -15,7 +19,7 @@ const Header = () => {
     <>
       <header
         id="main-header"
-        className="fixed top-0 left-0 right-0 z-50 mr-0 backdrop-blur-[var(--header-blur)] border-b border-[var(--header-border)] min-h-[65px]"
+        className={`${isScrolled ? 'bg-black' : 'bg-transparent'} fixed top-0 left-0 right-0 z-50 mr-0 backdrop-blur-[var(--header-blur)] border-b border-[var(--header-border)] min-h-[65px]`}
       >
         <nav
           className="flex items-center justify-between mx-auto max-w-[1100px] py-3 px-4 sm:px-8"

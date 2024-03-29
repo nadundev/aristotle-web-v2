@@ -1,4 +1,6 @@
-import BottomCta from "./components/bottomCta";
+"use client";
+
+import React, { useState, useEffect } from "react";
 import Brand from "./components/brand";
 import FAQ from "./components/faq";
 import Features from "./components/features";
@@ -8,9 +10,21 @@ import How from "./components/how";
 import Testimonials from "./components/testimonials";
 
 export default function Home() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const shouldBeBlack = window.scrollY > 1400;
+      setIsScrolled(shouldBeBlack);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <main className="relative h-full">
-      <Header />
+      <Header isScrolled={isScrolled} />
       <div className="mt-[65px]">
         <Hero />
         <Brand />

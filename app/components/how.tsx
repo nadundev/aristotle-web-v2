@@ -21,7 +21,7 @@ const How = () => {
           <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm:grid-col-3 md:grid-cols-3 lg:gap-y-16">
             <div>
               <img src={gridOne.src} className="w-full h-auto" alt="image1" />
-              <h2>Actively monitor</h2>
+              <h2 className="">Actively monitor</h2>
               <p className="mt-6 text-lg leading-8 text-gray-900">
                 Forget manual research. Actively gather data from 13+ sources to
                 comprehensively monitor your contacts, their company and their
@@ -29,8 +29,8 @@ const How = () => {
               </p>
             </div>
             <div>
-              <h2>Identify opportunities</h2>
               <img src={gridTwo.src} alt="image2" />
+              <h2>Identify opportunities</h2>
               <p className="mt-6 text-lg leading-8 text-gray-900">
                 Get your timing right. Select from 17+ signals to identify the
                 perfect opportunity to initiate your outreach. Or even build
@@ -38,8 +38,8 @@ const How = () => {
               </p>
             </div>
             <div>
-              <h2>Intelligently connect</h2>
               <img src={gridThree.src} alt="image3" />
+              <h2>Intelligently connect</h2>
               <p className="mt-6 text-lg leading-8 text-gray-900">
                 Do not sound like spam. Craft AI generated personalized outreach
                 while taking into account your previous interactions with the
