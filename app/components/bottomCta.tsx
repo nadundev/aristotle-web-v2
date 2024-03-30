@@ -4,7 +4,7 @@ import { cn } from "@/app/utils/cn";
 
 const BottomCta = () => {
   return (
-    <section className="hidden sm:block">
+    <section className="hidden sm:block max-h-[800px] overflow-hidden">
       <LampContainer>
         <motion.h1
           initial={{ opacity: 0.5, y: 100 }}
