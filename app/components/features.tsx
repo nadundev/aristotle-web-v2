@@ -16,7 +16,7 @@ const Features = () => {
             of B2B sales conversations</span> end in no decision. These deals hold
             unrealized revenue.
           </p>
-          <p className="mt-6 text-2xl leading-8 text-brand-500 font-bold">
+          <p className="mt-6 text-2xl leading-8 text-brand-500 font-medium">
             Right now, you might be...
           </p>
         </div>
@@ -87,11 +87,11 @@ const Features = () => {
         </div>
         <div className="mx-auto max-w-5xl lg:text-center pt-20 lg:pt-24">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[46px]">
-            What if you could personally engage <span className="bg-brand-500 text-white px-2 rounded-xl">your top deals</span> at just the right
+            What if you could personally engage your <span className="bg-brand-500 text-white px-2 rounded-xl">top deals</span> at just the right
             time, with meaningful, relevant outreach?
           </p>
-          <p className="mt-6 text-2xl leading-8 text-brand-500 font-bold">
-            With Aristotle you can.
+          <p className="mt-6 text-2xl leading-8 text-brand-500 font-medium">
+            With Aristotle you can,
           </p>
           <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
             <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">

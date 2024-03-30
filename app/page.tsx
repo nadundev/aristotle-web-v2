@@ -8,6 +8,8 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import How from "./components/how";
 import Testimonials from "./components/testimonials";
+import BottomCta from "./components/bottomCta";
+import TestimonialsLast from "./components/testimonialsLast";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +35,8 @@ export default function Home() {
         <How />
         <Testimonials />
         <FAQ />
-        <Testimonials />
+        <TestimonialsLast />
+        <BottomCta />
       </div>
     </main>
   );

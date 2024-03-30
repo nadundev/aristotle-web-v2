@@ -2,9 +2,9 @@ import React from "react";
 import hustleFundLogo from "../assets/images/hustlefund.svg";
 import person from "../assets/images/janelSpilker.png"
 
-const Testimonials = () => {
+const TestimonialsLast = () => {
   return (
-    <section className="relative isolate overflow-hidden bg-black px-6 py-24 sm:py-32 lg:px-8">
+    <section className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:px-8">
       <div className="mx-auto max-w-2xl lg:max-w-4xl">
         <img
           className="mx-auto w-auto h-8"
@@ -36,4 +36,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default TestimonialsLast;

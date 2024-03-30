@@ -7,14 +7,17 @@ const How = () => {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-5xl lg:tex-center flex justify-center pb-10">
+          <span className="text-xl font-semibold px-6 py-4 bg-[linear-gradient(90deg,rgba(206,199,190,1)_0%,rgba(132,114,92,1)_65%)] rounded-full">
+            How it works
+          </span>
+        </div>
         <div className="mx-auto max-w-5xl lg:text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Top-of-the-funnel leads are becoming increasingly precious. Over 50%
-            of B2B sales conversations end in no decision. These deals hold
-            unrealized revenue.
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[46px]">
+            Aristotle can keep your leads warm and up to date. Manage and monitor leads using state of the art AI.
           </p>
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Right now, you might be...
+          <p className="mt-6 text-2xl leading-8 text-brand-500 font-medium">
+            This is how aristotle make your workflow easy...
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
