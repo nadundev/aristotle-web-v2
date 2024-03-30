@@ -5,10 +5,15 @@ const Features = () => {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-5xl lg:tex-center flex justify-center pb-10">
+          <span className="text-xl font-semibold px-6 py-4 bg-[linear-gradient(90deg,rgba(206,199,190,1)_0%,rgba(132,114,92,1)_65%)] rounded-full">
+            Why Aristotle?
+          </span>
+        </div>
         <div className="mx-auto max-w-5xl lg:text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Top-of-the-funnel leads are becoming increasingly precious. Over 50%
-            of B2B sales conversations end in no decision. These deals hold
+          <p className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl !leading-[46px]">
+            Top-of-the-funnel leads are becoming increasingly precious. <span className="bg-brand-500 text-white px-2 rounded-xl">Over 50%
+            of B2B sales conversations</span> end in no decision. These deals hold
             unrealized revenue.
           </p>
           <p className="mt-6 text-2xl leading-8 text-brand-500 font-bold">
@@ -81,8 +86,8 @@ const Features = () => {
           </div>
         </div>
         <div className="mx-auto max-w-5xl lg:text-center pt-20 lg:pt-24">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            What if you could personally engage your top deals at just the right
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[46px]">
+            What if you could personally engage <span className="bg-brand-500 text-white px-2 rounded-xl">your top deals</span> at just the right
             time, with meaningful, relevant outreach?
           </p>
           <p className="mt-6 text-2xl leading-8 text-brand-500 font-bold">

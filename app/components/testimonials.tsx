@@ -1,40 +1,33 @@
 import React from "react";
+import hustleFundLogo from "../assets/images/hustlefund.svg";
+import person from "../assets/images/janelSpilker.png"
 
 const Testimonials = () => {
   return (
     <section className="relative isolate overflow-hidden bg-black px-6 py-24 sm:py-32 lg:px-8">
       <div className="mx-auto max-w-2xl lg:max-w-4xl">
         <img
-          className="mx-auto h-12"
-          src="https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg"
-          alt=""
+          className="mx-auto w-auto h-8"
+          src={hustleFundLogo.src}
+          alt="testimonial-logo"
         />
         <figure className="mt-10">
           <blockquote className="text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
             <p>
-              “Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-              expedita voluptas culpa sapiente alias molestiae. Numquam corrupti
-              in laborum sed rerum et corporis.”
+              "Just wanted to share that this week alone on the handful of
+              nudges I've sent, I've got super positive responses that have led
+              to connecting with their marketing team for a meeting or similar"
             </p>
           </blockquote>
           <figcaption className="mt-10">
             <img
-              className="mx-auto h-10 w-10 rounded-full"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+              className="mx-auto h-20 w-20 rounded-full"
+              src={person.src}
               alt=""
             />
-            <div className="mt-4 flex items-center justify-center space-x-3 text-base">
-              <div className="font-semibold text-white">Judith Black</div>
-              <svg
-                viewBox="0 0 2 2"
-                width="3"
-                height="3"
-                aria-hidden="true"
-                className="fill-white"
-              >
-                <circle cx="1" cy="1" r="1" />
-              </svg>
-              <div className="text-white">CEO of Workcation</div>
+            <div className="mt-4 flex flex-col justify-start items-center space-x-3 text-base">
+              <div className="font-semibold text-lg text-white">Janel Spilker</div>
+              <div className="text-white">Head of Business Development and Partnerships at Hustle Fund</div>
             </div>
           </figcaption>
         </figure>
