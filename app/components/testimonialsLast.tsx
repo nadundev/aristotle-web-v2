@@ -14,9 +14,9 @@ const TestimonialsLast = () => {
         <figure className="mt-10">
           <blockquote className="text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
             <p>
-              "Just wanted to share that this week alone on the handful of
-              nudges I've sent, I've got super positive responses that have led
-              to connecting with their marketing team for a meeting or similar"
+              {'"'}Just wanted to share that this week alone on the handful of
+              nudges I{"'"}ve sent{","} I{"'"}ve got super positive responses that have led
+              to connecting with their marketing team for a meeting or similar{'"'}
             </p>
           </blockquote>
           <figcaption className="mt-10">

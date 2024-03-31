@@ -95,21 +95,8 @@ const How = () => {
               </div>
               <div className="flex flex-col gap-4 bg-white shadow-xl rounded-lg p-4 border border-[#ececec]">
                 <div>
-                  <div className="w-7 h-7 bg-brand-500 rounded-full grid place-content-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      className="w-5 h-5"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="m4.5 12.75 6 6 9-13.5"
-                      />
-                    </svg>
+                  <div className="w-7 h-7 bg-brand-500 text-white text-xl rounded-full grid place-content-center">
+                    2
                   </div>
                 </div>
                 <p className="text-lg text-left font-medium leading-8 text-gray-900">
@@ -118,21 +105,8 @@ const How = () => {
               </div>
               <div className="flex flex-col gap-4 bg-white shadow-xl rounded-lg p-4 border border-[#ececec]">
                 <div>
-                  <div className="w-7 h-7 bg-brand-500 rounded-full grid place-content-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      className="w-5 h-5"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="m4.5 12.75 6 6 9-13.5"
-                      />
-                    </svg>
+                  <div className="w-7 h-7 bg-brand-500 text-white text-xl rounded-full grid place-content-center">
+                    3
                   </div>
                 </div>
                 <p className="text-lg text-left font-medium leading-8 text-gray-900">

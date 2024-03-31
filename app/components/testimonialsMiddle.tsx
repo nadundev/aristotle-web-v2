@@ -14,8 +14,8 @@ const TestimonialsMiddle = () => {
         <figure className="mt-10">
           <blockquote className="text-center text-xl font-semibold leading-8 text-white sm:text-2xl sm:leading-9">
             <p>
-              "We're happy customers of Aristotle. I'm skeptical of most
-              products like them but it's actually worked!"
+              {'"'}We{"'"}re happy customers of Aristotle. I{"'"}m skeptical of most
+              products like them but it{"'"}s actually worked{"!"}{'"'}
             </p>
           </blockquote>
           <figcaption className="mt-10">
