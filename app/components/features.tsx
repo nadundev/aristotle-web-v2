@@ -5,18 +5,13 @@ const Features = () => {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-5xl lg:tex-center flex justify-center pb-10">
-          <span className="text-xl font-semibold px-6 py-4 bg-[linear-gradient(90deg,rgba(206,199,190,1)_0%,rgba(132,114,92,1)_65%)] rounded-full">
-            Why Aristotle?
-          </span>
-        </div>
         <div className="mx-auto max-w-5xl lg:text-center">
           <p className="mt-2 text-3xl font-bold text-gray-900 sm:text-4xl !leading-[46px]">
-            Top-of-the-funnel leads are becoming increasingly precious. <span className="bg-brand-500 text-white px-2 rounded-xl">Over 50%
-            of B2B sales conversations</span> end in no decision. These deals hold
+            Top-of-the-funnel leads are becoming increasingly precious. Over 50%
+            of B2B sales conversations end in no decision. These deals hold
             unrealized revenue.
           </p>
-          <p className="mt-6 text-2xl leading-8 text-brand-500 font-medium">
+          <p className="mt-6 text-2xl leading-8 text-black font-medium">
             Right now, you might be...
           </p>
         </div>
@@ -35,9 +30,8 @@ const Features = () => {
                 <div className="max-w-xl">
                   <div className="group relative">
                     <p className="mt-5 text-md text-left leading-6 text-gray-600">
-                      Forget manual research. Actively gather data from 13+
-                      sources to comprehensively monitor your leads, their
-                      company and their industry.
+                      Letting hot prospects go cold in impersonal newsletters
+                      they'll never read.
                     </p>
                   </div>
                 </div>
@@ -87,13 +81,13 @@ const Features = () => {
         </div>
         <div className="mx-auto max-w-5xl lg:text-center pt-20 lg:pt-24">
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[46px]">
-            What if you could personally engage your <span className="bg-brand-500 text-white px-2 rounded-xl">top deals</span> at just the right
+            What if you could personally engage your top deals at just the right
             time, with meaningful, relevant outreach?
           </p>
-          <p className="mt-6 text-2xl leading-8 text-brand-500 font-medium">
+          <p className="mt-6 text-2xl leading-8 text-black font-medium">
             With Aristotle you can,
           </p>
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-6xl">
             <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
               <div className="flex gap-4">
                 <div>
@@ -114,7 +108,7 @@ const Features = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-lg font-medium text-left leading-8 text-gray-900">
+                <p className="text-md font-normal text-left leading-8 text-gray-900">
                   Nurture and progress mid-funnel deals to close.
                 </p>
               </div>
@@ -137,7 +131,7 @@ const Features = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-lg text-left font-medium leading-8 text-gray-900">
+                <p className="text-md font-normal text-left leading-8 text-gray-900">
                   Never miss a sales opportunity with real-time monitoring.
                 </p>
               </div>
@@ -160,7 +154,7 @@ const Features = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-lg text-left font-medium leading-8 text-gray-900">
+                <p className="text-md font-normal text-left leading-8 text-gray-900">
                   Personally engage leads with tailored, multi-channel outreach
                   generated with AI.
                 </p>

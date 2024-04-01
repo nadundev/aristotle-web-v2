@@ -24,7 +24,7 @@ const TestimonialsMiddle = () => {
               src={person.src}
               alt=""
             />
-            <div className="mt-4 flex flex-col justify-start items-center space-x-3 text-base">
+            <div className="mt-4 flex flex-col gap-1 justify-start items-center space-x-3 text-base">
               <div className="font-semibold text-lg text-white">
                 Adam Spector
               </div>

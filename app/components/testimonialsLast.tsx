@@ -25,7 +25,7 @@ const TestimonialsLast = () => {
               src={person.src}
               alt=""
             />
-            <div className="mt-4 flex flex-col justify-start items-center space-x-3 text-base">
+            <div className="mt-4 flex flex-col gap-1 justify-start items-center space-x-3 text-base">
               <div className="font-semibold text-lg text-white">Janel Spilker</div>
               <div className="text-white font-light text-center sm:text-left !ml-0">Head of Business Development and Partnerships at Hustle Fund</div>
             </div>

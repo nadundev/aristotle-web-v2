@@ -46,11 +46,6 @@ const FAQ = () => {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-8 py-24 sm:py-32">
-        <div className="mx-auto max-w-5xl lg:tex-center flex justify-center pb-10">
-          <span className="text-xl font-semibold px-6 py-4 bg-[linear-gradient(90deg,rgba(206,199,190,1)_0%,rgba(132,114,92,1)_65%)] rounded-full">
-            FAQ{"'"}s
-          </span>
-        </div>
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
           <h2 className="text-3xl font-bold leading-10 tracking-tight text-gray-900">
             Frequently asked questions
@@ -110,7 +105,7 @@ const FAQ = () => {
                     initial="collapsed"
                     animate={expandedFAQ === index ? "open" : "collapsed"}
                     variants={variants}
-                    transition={{ duration: 0.8 }}
+                    transition={{ duration: 0.3 }}
                   >
                     <p className="text-lg leading-7 text-gray-600 p-4 bg-gray-100 rounded-md mt-4">
                       {faq.answer}
