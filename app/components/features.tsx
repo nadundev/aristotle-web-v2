@@ -97,7 +97,7 @@ const Features = () => {
             <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
               <div className="flex gap-4">
                 <div>
-                  <div className="w-7 h-7 bg-brand-500 rounded-full grid place-content-center">
+                  <div className="w-7 h-7 bg-green-500 rounded-full grid place-content-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -120,7 +120,7 @@ const Features = () => {
               </div>
               <div className="flex gap-4">
                 <div>
-                  <div className="w-7 h-7 bg-brand-500 rounded-full grid place-content-center">
+                  <div className="w-7 h-7 bg-green-500 rounded-full grid place-content-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -143,7 +143,7 @@ const Features = () => {
               </div>
               <div className="flex gap-4">
                 <div>
-                  <div className="w-7 h-7 bg-brand-500 rounded-full grid place-content-center">
+                  <div className="w-7 h-7 bg-green-500 rounded-full grid place-content-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
