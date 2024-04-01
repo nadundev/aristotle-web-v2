@@ -31,7 +31,7 @@ const Features = () => {
                   <div className="group relative">
                     <p className="mt-5 text-md text-left leading-6 text-gray-600">
                       Letting hot prospects go cold in impersonal newsletters
-                      they'll never read.
+                      they{"'"}ll never read.
                     </p>
                   </div>
                 </div>
