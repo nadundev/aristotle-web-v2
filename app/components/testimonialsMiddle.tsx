@@ -28,7 +28,7 @@ const TestimonialsMiddle = () => {
               <div className="font-semibold text-lg text-white">
                 Adam Spector
               </div>
-              <div className="text-white font-light">
+              <div className="text-white font-light text-center sm:text-left !ml-0">
                 Founder & CEO at levy.company
               </div>
             </div>
