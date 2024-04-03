@@ -5,18 +5,9 @@ import gridThree from "../assets/images/grid-image-03.webp";
 
 const How = () => {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-24 sm:py-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-5xl lg:text-center">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl !leading-[46px]">
-            Aristotle can keep your leads warm and up to date. Manage and
-            monitor leads using state of the art AI.
-          </p>
-          <p className="mt-6 text-2xl leading-8 text-black font-medium">
-            This is how aristotle make your workflow easy...
-          </p>
-        </div>
-        <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+        <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm:grid-col-3 md:grid-cols-3 lg:gap-y-16">
             <div className="min-w-sm bg-white border border-gray-200 rounded-lg">
               <a href="#">
@@ -28,7 +19,7 @@ const How = () => {
                     Actively monitor
                   </h5>
                 </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-500">
                   Forget manual research. Actively gather data from 13+ sources
                   to comprehensively monitor your contacts, their company and
                   their industry.
@@ -45,7 +36,7 @@ const How = () => {
                     Identify opportunities
                   </h5>
                 </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-500">
                   Get your timing right. Select from 17+ signals to identify the
                   perfect opportunity to initiate your outreach. Or even build
                   your own signals.
@@ -62,7 +53,7 @@ const How = () => {
                     Intelligently connect
                   </h5>
                 </a>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                <p className="mb-3 font-normal text-gray-500">
                   Do not sound like spam. Craft AI generated personalized
                   outreach while taking into account your previous interactions
                   with the contacts.
@@ -71,41 +62,49 @@ const How = () => {
             </div>
           </div>
         </div>
-
-        <div className="mx-auto max-w-6xl lg:text-center pt-20 lg:pt-24">
+        <div className="mx-auto max-w-6xl lg:text-center pt-20 lg:pt-20">
           <p className="mt-2 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
             Get opportunities from your leads in 3 steps
           </p>
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-5xl">
+          <div className="mx-auto mt-16 max-w-2xl sm:mt-16 lg:mt-16 lg:max-w-5xl">
             <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm:grid-col-3 md:grid-cols-3 lg:gap-y-16">
-              <div className="flex flex-col gap-4 bg-white rounded-lg p-4 border border-[#ececec]">
-                <div>
+              <div className="flex flex-col gap-1 bg-white rounded-lg p-4 border border-[#ececec]">
+                <div className="flex flex-col gap-4">
                   <div className="w-7 h-7 bg-brand-500 text-white text-xl rounded-full grid place-content-center">
                     1
                   </div>
+                  <p className="text-lg text-left font-medium leading-8 text-gray-900">
+                    Add in your company details
+                  </p>
                 </div>
-                <p className="text-lg text-left font-medium leading-8 text-gray-900">
-                  Add in your company details.
+                <p className="text-gray-500">
+                  I don&apos;t know, but the flag is a big plus.
                 </p>
               </div>
-              <div className="flex flex-col gap-4 bg-white rounded-lg p-4 border border-[#ececec]">
-                <div>
+              <div className="flex flex-col gap-1 bg-white rounded-lg p-4 border border-[#ececec]">
+                <div className="flex flex-col gap-4">
                   <div className="w-7 h-7 bg-brand-500 text-white text-xl rounded-full grid place-content-center">
                     2
                   </div>
+                  <p className="text-lg text-left font-medium leading-8 text-gray-900">
+                    Select your signals
+                  </p>
                 </div>
-                <p className="text-lg text-left font-medium leading-8 text-gray-900">
-                  Select your signals.
+                <p className="text-gray-500">
+                  I don&apos;t know, but the flag is a big plus.
                 </p>
               </div>
-              <div className="flex flex-col gap-4 bg-white rounded-lg p-4 border border-[#ececec]">
-                <div>
+              <div className="flex flex-col gap-1 bg-white rounded-lg p-4 border border-[#ececec]">
+                <div className="flex flex-col gap-4">
                   <div className="w-7 h-7 bg-brand-500 text-white text-xl rounded-full grid place-content-center">
                     3
                   </div>
+                  <p className="text-lg text-left font-medium leading-8 text-gray-900">
+                    Import your leads
+                  </p>
                 </div>
-                <p className="text-lg text-left font-medium leading-8 text-gray-900">
-                  Import your leads.
+                <p className="text-gray-500">
+                  I don&apos;t know, but the flag is a big plus.
                 </p>
               </div>
             </div>

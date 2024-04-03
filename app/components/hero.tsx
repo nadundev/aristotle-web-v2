@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="py-24 sm:py-32 lg:pb-32">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl leading-[46px] md:leading-[70px] gradient-text">
+              <h1 className="text-4xl font-medium tracking-tight text-white sm:text-6xl leading-[46px] md:leading-[70px] gradient-text">
                 Stay on top of your pipeline. Google alerts on steroids for
                 sales.
               </h1>
