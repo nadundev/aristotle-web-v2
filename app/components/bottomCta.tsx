@@ -15,7 +15,7 @@ const BottomCta = () => {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+            className="mt-8 bg-gradient-to-br from-[#ffffff] to-[#9b9b9b] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
           >
             Join the future of
             <br /> relationship based selling
@@ -49,7 +49,7 @@ const BottomCta = () => {
               duration: 0.8,
               ease: "easeInOut",
             }}
-            className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
+            className="mt-8 bg-gradient-to-br from-[#ffffff] to-[#9b9b9b] py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
           >
             Join the future of
             <br /> relationship based selling

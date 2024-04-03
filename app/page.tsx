@@ -11,6 +11,7 @@ import Testimonials from "./components/testimonials";
 import BottomCta from "./components/bottomCta";
 import TestimonialsLast from "./components/testimonialsLast";
 import TestimonialsMiddle from "./components/testimonialsMiddle";
+import Footer from "./components/footer";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -26,9 +27,9 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <main className="relative h-full">
+    <div className="relative h-full">
       <Header isScrolled={isScrolled} />
-      <div className="mt-[65px]">
+      <main className="mt-[65px]">
         <Hero />
         <Brand />
         <Features />
@@ -38,7 +39,8 @@ export default function Home() {
         <FAQ />
         <TestimonialsLast />
         <BottomCta />
-      </div>
-    </main>
+      </main>
+      <Footer />
+    </div>
   );
 }

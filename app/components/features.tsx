@@ -29,7 +29,7 @@ const Features = () => {
                 </div>
                 <div className="max-w-xl">
                   <div className="group relative">
-                    <p className="mt-5 text-md text-left leading-6 text-gray-600">
+                    <p className="mt-5 text-md text-left leading-6 text-gray-500">
                       Letting hot prospects go cold in impersonal newsletters
                       they{"'"}ll never read.
                     </p>
@@ -49,7 +49,7 @@ const Features = () => {
                 </div>
                 <div className="max-w-xl">
                   <div className="group relative">
-                    <p className="mt-5 text-md text-left leading-6 text-gray-600">
+                    <p className="mt-5 text-md text-left leading-6 text-gray-500">
                       Spamming tired follow-up lines that make you look like
                       just another pesky salesperson.
                     </p>
@@ -69,7 +69,7 @@ const Features = () => {
                 </div>
                 <div className="max-w-xl">
                   <div className="group relative">
-                    <p className="mt-5 text-md leading-6 text-gray-600">
+                    <p className="mt-5 text-md leading-6 text-gray-500">
                       Drowning in a sea of noisy alerts that leave you chasing
                       dead ends instead of closing deals.
                     </p>
@@ -85,20 +85,20 @@ const Features = () => {
             time, with meaningful, relevant outreach?
           </p>
           <p className="mt-6 text-2xl leading-8 text-black font-medium">
-            With Aristotle you can,
+            With Aristotle you can.
           </p>
-          <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-6xl">
-            <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
-              <div className="flex gap-4">
+          <div className="mx-auto mt-12 max-w-2xl sm:mt-12 lg:mt-12 lg:max-w-6xl">
+            <div className="grid max-w-2xl grid-cols-1 gap-x-2 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
+              <div className="flex gap-2">
                 <div>
-                  <div className="w-7 h-7 bg-green-500 rounded-full grid place-content-center">
+                  <div className="w-5 h-5 bg-green-500 rounded-full grid place-content-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      className="w-5 h-5"
+                      className="w-3 h-3"
                     >
                       <path
                         stroke-linecap="round"
@@ -108,20 +108,20 @@ const Features = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-md font-normal text-left leading-8 text-gray-900">
+                <p className="text-[15px] font-normal text-left leading-6 text-gray-500">
                   Nurture and progress mid-funnel deals to close.
                 </p>
               </div>
-              <div className="flex gap-4">
+              <div className="flex gap-2">
                 <div>
-                  <div className="w-7 h-7 bg-green-500 rounded-full grid place-content-center">
+                  <div className="w-5 h-5 bg-green-500 rounded-full grid place-content-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      className="w-5 h-5"
+                      className="w-3 h-3"
                     >
                       <path
                         stroke-linecap="round"
@@ -131,20 +131,20 @@ const Features = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-md font-normal text-left leading-8 text-gray-900">
+                <p className="text-[15px] font-normal text-left leading-6 text-gray-500">
                   Never miss a sales opportunity with real-time monitoring.
                 </p>
               </div>
-              <div className="flex gap-4">
+              <div className="flex gap-2">
                 <div>
-                  <div className="w-7 h-7 bg-green-500 rounded-full grid place-content-center">
+                  <div className="w-5 h-5 bg-green-500 rounded-full grid place-content-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      className="w-5 h-5"
+                      className="w-3 h-3"
                     >
                       <path
                         stroke-linecap="round"
@@ -154,7 +154,7 @@ const Features = () => {
                     </svg>
                   </div>
                 </div>
-                <p className="text-md font-normal text-left leading-8 text-gray-900">
+                <p className="text-[15px] font-normal text-left leading-6 text-gray-500">
                   Personally engage leads with tailored, multi-channel outreach
                   generated with AI.
                 </p>
