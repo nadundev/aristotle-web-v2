@@ -9,57 +9,49 @@ import Typewriter from "typewriter-effect";
 const Footer = () => {
   return (
     <footer className="border-t border-[var(--header-border)] backdrop-blur-[var(--header-blur)]">
-      <div className="w-full dark:bg-black  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] relative flex items-center justify-center">
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"></div>
-        <div className="flex flex-col justify-center">
-          <div className="flex justify-center pt-12 px-4">
-            <Image
-              src={logo.src}
-              alt="aristotle-logo"
-              height={95}
-              width={187}
+      <div className="flex flex-col justify-center">
+        <div className="flex justify-center pt-12 px-4">
+          <Image src={logo.src} alt="aristotle-logo" height={95} width={187} />
+        </div>
+        <div className="flex justify-center pt-1 pb-12 px-4">
+          <h2 className="text-xl sm:text-2xl md:text-3xl">
+            <Typewriter
+              options={{
+                strings: [
+                  "Ready to be always on top?",
+                  "Discover our innovative solutions.",
+                  "Join our community of experts.",
+                  "Transform your business today.",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
             />
+          </h2>
+        </div>
+        <div className="flex flex-col justify-center gap-x-6 md:flex-row pb-12 px-4">
+          <div>
+            <Link
+              className="hover:text-brand-400 transition-all duration-[0.4s]"
+              href=""
+            >
+              Privacy policy
+            </Link>
           </div>
-          <div className="flex justify-center pt-1 pb-12 px-4">
-            <h2 className="text-xl sm:text-2xl md:text-3xl">
-              <Typewriter
-                options={{
-                  strings: [
-                    "Ready to be always on top?",
-                    "Discover our innovative solutions.",
-                    "Join our community of experts.",
-                    "Transform your business today.",
-                  ],
-                  autoStart: true,
-                  loop: true,
-                }}
-              />
-            </h2>
+          <div>
+            <Link className="hover:text-brand-400 duration-[0.4s]" href="">
+              Terms & conditions
+            </Link>
           </div>
-          <div className="flex flex-col justify-center gap-x-6 md:flex-row pb-12 px-4">
-            <div>
-              <Link
-                className="hover:text-brand-400 transition-all duration-[0.4s]"
-                href=""
-              >
-                Privacy policy
-              </Link>
-            </div>
-            <div>
-              <Link className="hover:text-brand-400 duration-[0.4s]" href="">
-                Terms & conditions
-              </Link>
-            </div>
-            <div>
-              <Link className="hover:text-brand-400 duration-[0.4s]" href="">
-                Newsletter
-              </Link>
-            </div>
-            <div>
-              <Link className="hover:text-brand-400 duration-[0.4s]" href="">
-                Blog
-              </Link>
-            </div>
+          <div>
+            <Link className="hover:text-brand-400 duration-[0.4s]" href="">
+              Newsletter
+            </Link>
+          </div>
+          <div>
+            <Link className="hover:text-brand-400 duration-[0.4s]" href="">
+              Blog
+            </Link>
           </div>
         </div>
       </div>
