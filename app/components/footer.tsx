@@ -29,7 +29,7 @@ const Footer = () => {
             />
           </h2>
         </div>
-        <div className="flex flex-col justify-center gap-x-6 md:flex-row pb-12 px-4">
+        <div className="flex flex-col justify-center items-center gap-y-6 md:gap-x-6 md:flex-row pb-12 px-4">
           <div>
             <Link
               className="hover:text-brand-400 transition-all duration-[0.4s]"
