@@ -33,7 +33,7 @@ const BottomCta = () => {
             <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-brand-50">
               <span className="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffebcb_0%,#84725C_50%,#ffebcb_100%)]" />
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-black px-6 py- text-2xl font-medium text-white backdrop-blur-3xl">
-                Book a demo
+                Book an onboarding call
               </span>
             </button>
           </motion.div>
@@ -68,7 +68,7 @@ const BottomCta = () => {
               <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-brand-50">
                 <span className="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffebcb_0%,#84725C_50%,#ffebcb_100%)]" />
                 <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-black px-6 py- text-2xl font-medium text-white backdrop-blur-3xl">
-                  Book a demo
+                  Book an onboarding call
                 </span>
               </button>
             </motion.div>

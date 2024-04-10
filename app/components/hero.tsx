@@ -19,7 +19,7 @@ const Hero = () => {
             }}
           ></div>
         </div>
-        <div className="py-24 sm:py-32 lg:pb-32">
+        <div className="py-20 sm:py-20 lg:pb-20">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="text-4xl font-medium tracking-tight text-white sm:text-6xl leading-[46px] md:leading-[70px] gradient-text">
@@ -35,7 +35,7 @@ const Hero = () => {
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-brand-50">
                   <span className="absolute inset-[-1000%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffebcb_0%,#84725C_50%,#ffebcb_100%)]" />
                   <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-black px-6 py- text-lg font-medium text-white backdrop-blur-3xl">
-                    Book a demo
+                    Book an onboarding call
                   </span>
                 </button>
               </div>
