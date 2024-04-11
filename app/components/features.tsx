@@ -87,7 +87,7 @@ const Features = () => {
           <p className="mt-10 text-2xl leading-8 text-black font-medium">
             With Aristotle you can.
           </p>
-          <div className="mx-auto mt-12 max-w-2xl sm:mt-12 lg:mt-10 lg:max-w-6xl">
+          <div className="mx-auto mt-14 max-w-2xl sm:mt-14 lg:mt-12 lg:max-w-6xl">
             <div className="grid max-w-2xl grid-cols-1 gap-x-2 gap-y-10 lg:max-w-none lg:grid-cols-3 lg:gap-y-16">
               <div className="flex gap-2">
                 <div>
