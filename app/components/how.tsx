@@ -91,7 +91,7 @@ const How = () => {
                   </p>
                 </div>
                 <p className="text-gray-700 text-left">
-                  Choose from 17+ intent signals to bring opportunities from your leads to you. <br /><br /><a href="signals.com" target="_blank">Visit Signal Library</a>
+                  Choose from 17+ intent signals to bring opportunities from your leads to you. <br /><br /><a href="https://www.notion.so/aristotlehq/Aristotle-Signal-Library-1f652e813cb44e04b185bc8cb1ce5238" target="_blank">Explore Aristotle's Signal Library</a>
                 </p>
               </div>
               <div className="flex flex-col gap-1 bg-white rounded-lg p-4 border border-[#ececec]">
