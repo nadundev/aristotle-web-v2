@@ -12,6 +12,7 @@ import BottomCta from "./components/bottomCta";
 import TestimonialsLast from "./components/testimonialsLast";
 import TestimonialsMiddle from "./components/testimonialsMiddle";
 import Footer from "./components/footer";
+import StaggeredSection from "./components/staggeredSection";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,6 +35,7 @@ export default function Home() {
         <Brand />
         <Features />
         <Testimonials />
+        <StaggeredSection />
         <How />
         <TestimonialsMiddle />
         <FAQ />

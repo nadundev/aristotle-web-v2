@@ -5,9 +5,9 @@ import gridThree from "../assets/images/grid-image-03.webp";
 
 const How = () => {
   return (
-    <div className="bg-white py-24 sm:py-28">
+    <div className="bg-white pb-24 sm:pb-28">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:max-w-4xl">
+        {/* <div className="mx-auto max-w-2xl lg:max-w-4xl">
           <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none sm:grid-col-3 md:grid-cols-3 lg:gap-y-16">
             <div className="min-w-sm bg-white border border-gray-200 rounded-lg">
               <a href="#">
@@ -61,7 +61,7 @@ const How = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="mx-auto max-w-6xl lg:text-center pt-20 lg:pt-20">
           <p className="mt-2 text-3xl font-semibold tracking-tight text-gray-900 sm:text-4xl">
             Get opportunities from your leads in 3 steps
