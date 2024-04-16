@@ -13,22 +13,6 @@ const Footer = () => {
         <div className="flex justify-center">
           <Image src={logo.src} alt="aristotle-logo" height={95} width={187} />
         </div>
-        {/* <div className="flex justify-center pt-1 pb-12 px-4">
-          <h2 className="text-xl sm:text-2xl md:text-3xl">
-            <Typewriter
-              options={{
-                strings: [
-                  "Ready to be always on top?",
-                  "Discover our innovative solutions.",
-                  "Join our community of experts.",
-                  "Transform your business today.",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h2>
-        </div> */}
         <div className="flex flex-col justify-center items-center gap-y-6 sm:gap-x-6 sm:flex-row">
           <div>
             <Link
