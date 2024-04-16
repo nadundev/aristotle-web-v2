@@ -9,11 +9,11 @@ import Typewriter from "typewriter-effect";
 const Footer = () => {
   return (
     <footer className="border-t border-[var(--header-border)] backdrop-blur-[var(--header-blur)]">
-      <div className="flex flex-col justify-center">
-        <div className="flex justify-center pt-12 px-4">
+      <div className="flex justify-between flex-col sm:flex-row mx-auto py-12 px-4 sm:px-8">
+        <div className="flex justify-center">
           <Image src={logo.src} alt="aristotle-logo" height={95} width={187} />
         </div>
-        <div className="flex justify-center pt-1 pb-12 px-4">
+        {/* <div className="flex justify-center pt-1 pb-12 px-4">
           <h2 className="text-xl sm:text-2xl md:text-3xl">
             <Typewriter
               options={{
@@ -28,8 +28,8 @@ const Footer = () => {
               }}
             />
           </h2>
-        </div>
-        <div className="flex flex-col justify-center items-center gap-y-6 md:gap-x-6 md:flex-row pb-12 px-4">
+        </div> */}
+        <div className="flex flex-col justify-center items-center gap-y-6 sm:gap-x-6 sm:flex-row">
           <div>
             <Link
               className="hover:text-brand-400 transition-all duration-[0.4s]"
@@ -38,15 +38,16 @@ const Footer = () => {
               Privacy policy
             </Link>
           </div>
+          <div className="hidden sm:block">
+            |
+          </div>
           <div>
             <Link className="hover:text-brand-400 duration-[0.4s]" href="">
               Terms & conditions
             </Link>
           </div>
-          <div>
-            <Link className="hover:text-brand-400 duration-[0.4s]" href="">
-              Newsletter
-            </Link>
+          <div className="hidden sm:block">
+            |
           </div>
           <div>
             <Link className="hover:text-brand-400 duration-[0.4s]" href="">
@@ -56,7 +57,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t border-[var(--header-border)] py-4 px-4 flex justify-between">
-        <p className="text-[12px] text-gray-500">©2023 ARISTOTLE HQ</p>
+        <p className="text-[12px] text-gray-500">©2024 ARISTOTLE HQ</p>
         <div className="flex items-center gap-4">
           <a href="#" className="text-gray-500 hover:text-gray-400">
             <span className="sr-only">LinkedIn</span>
