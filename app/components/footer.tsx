@@ -4,13 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import logo from "../assets/images/aristotlehq-logo.webp";
-import Typewriter from "typewriter-effect";
 
 const Footer = () => {
   return (
     <footer className="border-t border-[var(--header-border)] backdrop-blur-[var(--header-blur)]">
       <div className="flex justify-between flex-col sm:flex-row mx-auto py-12 px-4 sm:px-8">
-        <div className="flex justify-center">
+        <div className="flex justify-center pb-10 sm:pb-0">
           <Image src={logo.src} alt="aristotle-logo" height={95} width={187} />
         </div>
         <div className="flex flex-col justify-center items-center gap-y-6 sm:gap-x-6 sm:flex-row">

@@ -192,9 +192,9 @@ const FAQ = () => {
                     variants={variants}
                     transition={{ duration: 0.3 }}
                   >
-                    <p className="text-lg leading-7 text-gray-600 p-4 bg-gray-100 rounded-md mt-4">
+                    <div className="text-lg leading-7 text-gray-600 p-4 bg-gray-100 rounded-md mt-4">
                       {faq.answer}
-                    </p>
+                    </div>
                   </motion.div>
                 </dd>
               </div>
