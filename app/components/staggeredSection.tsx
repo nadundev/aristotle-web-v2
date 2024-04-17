@@ -7,13 +7,13 @@ export default function StaggeredSection() {
     <div className="bg-white pt-24 sm:pt-24">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-4xl">
-          <div className="flex flex-col gap-6 space-y-18 lg:space-y-18">
+          <div className="flex flex-col gap-6 lg:gap-12 space-y-18 lg:space-y-18">
             <article className="relative isolate flex flex-col gap-8 lg:flex-row">
-              <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+              <div className="relative aspect-[16/9] lg:w-[400px] lg:shrink-0">
                 <img
                   src={gridOne.src}
                   alt=""
-                  className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
+                  className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover object-center"
                 />
                 <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
               </div>
@@ -29,11 +29,11 @@ export default function StaggeredSection() {
               </div>
             </article>
             <article className="relative isolate flex flex-col gap-8 lg:flex-row-reverse">
-              <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+              <div className="relative aspect-[16/9] lg:w-[400px] lg:shrink-0">
                 <img
                   src={gridTwo.src}
                   alt=""
-                  className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
+                  className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover object-top"
                 />
                 <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
               </div>
@@ -49,11 +49,11 @@ export default function StaggeredSection() {
               </div>
             </article>
             <article className="relative isolate flex flex-col gap-8 lg:flex-row">
-              <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
+              <div className="relative aspect-[16/9] lg:w-[400px] lg:shrink-0">
                 <img
                   src={gridThree.src}
                   alt=""
-                  className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
+                  className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover object-top"
                 />
                 <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
               </div>

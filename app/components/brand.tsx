@@ -4,37 +4,37 @@ const Brand = () => {
   return (
     <div className="bg-black pb-24 sm:pb-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="text-center text-2xl font-medium leading-8 text-white">
-          Trusted by small sales teams
+        <h2 className="text-center text-2xl font-medium leading-8 pb-8">
+          Trusted by the world’s most innovative teams
         </h2>
-        <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+        <div className="mx-auto mt-10 max-w-lg items-center sm:max-w-4xl sm:gap-x-10 lg:mx-auto lg:max-w-4xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
+            className="max-h-12 w-full object-contain"
+            src="/assets/hustleFund.svg"
             alt="Transistor"
-            width="158"
-            height="48"
+            width={158}
+            height={48}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
+            className="max-h-12 w-full object-contain"
+            src="/assets/keep.svg"
             alt="Reform"
-            width="158"
-            height="48"
+            width={158}
+            height={48}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
+            className="max-h-12 w-full"
+            src="/assets/levy.svg"
             alt="Tuple"
-            width="158"
-            height="48"
+            width={158}
+            height={48}
           />
           <img
-            className="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-            src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
+            className="max-h-12 w-full"
+            src="/assets/calcey.svg"
             alt="SavvyCal"
-            width="158"
-            height="48"
+            width={158}
+            height={48}
           />
         </div>
       </div>

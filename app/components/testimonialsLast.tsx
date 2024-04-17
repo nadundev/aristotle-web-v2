@@ -1,6 +1,6 @@
 import React from "react";
-import hustleFundLogo from "../assets/images/hustlefund-dark.svg";
-import person from "../assets/images/janelSpilker.png"
+import levyLogo from "../assets/images/levyLogo.svg";
+import person from "../assets/images/admaSpector.jpeg";
 
 const TestimonialsLast = () => {
   return (
@@ -8,15 +8,15 @@ const TestimonialsLast = () => {
       <div className="mx-auto max-w-2xl lg:max-w-4xl">
         <img
           className="mx-auto w-auto h-8"
-          src={hustleFundLogo.src}
+          src={levyLogo.src}
           alt="testimonial-logo"
         />
         <figure className="mt-10">
-          <blockquote className="text-center text-xl font-semibold leading-8 text-black sm:text-2xl sm:leading-9">
+          <blockquote className="text-center text-xl font-semibold leading-8 text-gray-900 sm:text-2xl sm:leading-9">
             <p>
-              {'"'}Just wanted to share that this week alone on the handful of
-              nudges I{"'"}ve sent{","} I{"'"}ve got super positive responses that have led
-              to connecting with their marketing team for a meeting or similar{'"'}
+              {'"'}We{"'"}re happy customers of Aristotle. I{"'"}m skeptical of
+              most products like them but it{"'"}s actually worked{"!"}
+              {'"'}
             </p>
           </blockquote>
           <figcaption className="mt-10">
@@ -26,8 +26,12 @@ const TestimonialsLast = () => {
               alt=""
             />
             <div className="mt-4 flex flex-col gap-1 justify-start items-center space-x-3 text-base">
-              <div className="font-semibold text-lg text-black">Janel Spilker</div>
-              <div className="text-black font-light text-center sm:text-left !ml-0">Head of Business Development and Partnerships at Hustle Fund</div>
+              <div className="font-semibold text-lg text-gray-900">
+                Adam Spector
+              </div>
+              <div className="text-gray-900 font-light text-center sm:text-left !ml-0">
+                Founder & CEO at levy.company
+              </div>
             </div>
           </figcaption>
         </figure>
