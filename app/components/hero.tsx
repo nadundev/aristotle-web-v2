@@ -40,14 +40,16 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-            <div className="box">
-              <img
-                src={screenshot.src}
-                alt="App screenshot"
-                width="1940"
-                height="1080"
-                className="mt-16 sm:mt-24"
-              />
+            <div className="box mt-20">
+              <div style={{ position: "relative", paddingBottom: "calc(57.67989417989418% + 42px)", height: 0 }}>
+                <iframe
+                  src="https://app.supademo.com/embed/clv519pc61rwtz4eva6wqty9b"
+                  allow="clipboard-write"
+                  frameBorder="0"
+                  allowFullScreen={true}
+                  style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
