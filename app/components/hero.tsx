@@ -40,7 +40,7 @@ const Hero = () => {
                 </button>
               </div>
             </div>
-            <div className="box mt-20">
+            <div className="mt-20">
               <div style={{ position: "relative", paddingBottom: "calc(57.67989417989418% + 42px)", height: 0 }}>
                 <iframe
                   src="https://app.supademo.com/embed/clv519pc61rwtz4eva6wqty9b"
